@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Interativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Brincando com Javascript</h1>
+    <button onclick="alerta()">ALERTA!</button>
+
+    <div class="interaction">
+        <button onclick="mensagem()">Clique para notificação</button>
+        <button onclick="interacaoPrompt()">Clique para interagir</button>
+    </div>
+
+    <div class="input-section">
+        <p>Digite um número:</p>
+        <input type="number" id="numero">
+        <button onclick="manipularNumero()">Manipular número</button>
+    </div>
+
+    <div class="input-section">
+        <p>Digite dois números:</p>
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <button onclick="calcular()">Calcular</button>
+    </div>
+
+    <div class="input-section">
+        <p>Digite as notas do aluno (separadas por vírgula):</p>
+        <input type="text" id="notas">
+        <button onclick="calcularMedia()">Calcular Média</button>
+    </div>
+
+    <div class="input-section">
+        <p>Digite um número para cálculos adicionais:</p>
+        <input type="number" id="numeroCalculo">
+        <button onclick="calculosAdicionais()">Calcular</button>
+    </div>
+
+    <div class="counter-section">
+        <p>Contador de cliques:</p>
+        <span id="contador">0</span>
+        <button onclick="aumentarContador()">Clique aqui</button>
+    </div>
+</div>
+
+ <script src="extensão.js"></script>
+
+</body>
+</html>
