@@ -20,14 +20,14 @@ body {
 }
 
 h1 {
-    color: #000000;
+    color: #E300FA;
 }
 
 button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #000000;
+    background-color: #419cec;
     color: #FFF;
     border: none;
     border-radius: 5px;
@@ -37,11 +37,11 @@ button {
 }
 
 button:hover {
-    background-color: #000000;
+    background-color: #419cec;
 }
 
 .input-section p {
-    color: #000000;
+    color: #419cec;
     margin-bottom: 5px;
 }
 
@@ -61,5 +61,5 @@ input[type="text"] {
 #contador {
     font-size: 20px;
     font-weight: bold;
-    color: #000000;
+    color: #419cec;
 }
