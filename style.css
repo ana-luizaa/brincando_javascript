@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    color: #E300FA;
+    color: #000000;
 }
 
 button {
@@ -37,11 +37,11 @@ button {
 }
 
 button:hover {
-    background-color: #419cec;
+    background-color: #0088ff;
 }
 
 .input-section p {
-    color: #419cec;
+    color: #000000;
     margin-bottom: 5px;
 }
 
@@ -61,5 +61,5 @@ input[type="text"] {
 #contador {
     font-size: 20px;
     font-weight: bold;
-    color: #419cec;
+    color: #000000;
 }
